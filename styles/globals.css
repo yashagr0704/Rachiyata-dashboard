@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active {
+  border-color: #673ccb;
+  background-color: #f6f3ff;
+}
+
+.explore {
+  border-bottom: 2px solid white;
+}
+
+.subsection {
+  color: #673ccb;
+  border-bottom: 2px solid #673ccb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+.wrapperClassName {
+  /* padding: 1rem; */
+  /* border: 1px solid #ccc; */
+}
+
+.editorClassName {
+  font-family: 'Inter', sans-serif, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #2f2d5c;
+  font-weight: 500;
+  padding-left: 5px;
+  margin-top: -8px;
+}
+
+.toolbarClassName {
+  color: #2f2d5c;
+  border-radius: 6px !important;
+  border: 1px solid #673ccb23 !important;
+  padding: 7px 4px 0px !important;
+  font-family: 'Inter', sans-serif, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  font-weight: 600;
+}
+
+.rdw-option-wrapper {
+  height: 30px !important;
+  width: 30px !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 6px !important;
+  border: 1px solid #673ccb19 !important;
+}
+
+.rdw-option-active {
+  background-color: #673ccb20 !important;
+  color: white !important;
+}
+
+.rdw-dropdown-wrapper {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 6px !important;
+  border: 1px solid #673ccb19 !important;
+}
+
+.rdw-dropdown-selectedtext {
+  padding: 3px 5px 0px !important;
+}
